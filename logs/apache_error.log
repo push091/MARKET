@@ -1,0 +1,96 @@
+[Thu Jul 01 13:16:23 2021] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Jul 01 13:16:24 2021] [warn] pid file C:/MAMP/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jul 01 13:16:24 2021] [notice] Digest: generating secret for digest authentication ...
+[Thu Jul 01 13:16:24 2021] [notice] Digest: done
+[Thu Jul 01 13:16:25 2021] [notice] Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3 configured -- resuming normal operations
+[Thu Jul 01 13:16:25 2021] [notice] Server built: May  6 2016 10:19:53
+[Thu Jul 01 13:16:25 2021] [notice] Parent: Created child process 4600
+[Thu Jul 01 13:16:25 2021] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Jul 01 13:16:26 2021] [notice] Digest: generating secret for digest authentication ...
+[Thu Jul 01 13:16:26 2021] [notice] Digest: done
+[Thu Jul 01 13:16:27 2021] [notice] Child 4600: Child process is running
+[Thu Jul 01 13:16:27 2021] [notice] Child 4600: Acquired the start mutex.
+[Thu Jul 01 13:16:27 2021] [notice] Child 4600: Starting 64 worker threads.
+[Thu Jul 01 13:16:27 2021] [notice] Child 4600: Starting thread to listen on port 80.
+[Thu Jul 01 13:21:49 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs/docs-assets
+[Thu Jul 01 13:21:51 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs/favicon.ico
+[Thu Jul 01 13:22:56 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs/favicon.ico
+[Thu Jul 01 13:25:36 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:37 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:42 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:44 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:44 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/
+[Thu Jul 01 13:25:45 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs, referer: http://localhost/wp-admin/load-styles.php?c=0&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,site-health,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-poi&load%5Bchunk_1%5D=nter,widgets,site-icon,l10n,buttons,wp-auth-check&ver=5.7.2
+[Thu Jul 01 13:58:33 2021] [error] [client 127.0.0.1] client denied by server configuration: C:/MAMP/htdocs/wp-content/uploads/woocommerce_uploads/, referer: http://localhost/wp-content/uploads/woocommerce_uploads/
+[Thu Jul 01 15:34:27 2021] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Jul 01 15:34:28 2021] [warn] pid file C:/MAMP/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jul 01 15:34:28 2021] [notice] Digest: generating secret for digest authentication ...
+[Thu Jul 01 15:34:28 2021] [notice] Digest: done
+[Thu Jul 01 15:34:29 2021] [notice] Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3 configured -- resuming normal operations
+[Thu Jul 01 15:34:29 2021] [notice] Server built: May  6 2016 10:19:53
+[Thu Jul 01 15:34:29 2021] [notice] Parent: Created child process 5028
+[Thu Jul 01 15:34:29 2021] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Jul 01 15:34:30 2021] [notice] Digest: generating secret for digest authentication ...
+[Thu Jul 01 15:34:30 2021] [notice] Digest: done
+[Thu Jul 01 15:34:31 2021] [notice] Child 5028: Child process is running
+[Thu Jul 01 15:34:31 2021] [notice] Child 5028: Acquired the start mutex.
+[Thu Jul 01 15:34:31 2021] [notice] Child 5028: Starting 64 worker threads.
+[Thu Jul 01 15:34:31 2021] [notice] Child 5028: Starting thread to listen on port 80.
+[Thu Jul 01 15:34:31 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs/docs-assets
+[Thu Jul 01 15:34:34 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs/favicon.ico
+[Thu Jul 01 15:35:06 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs/docs-assets
+[Thu Jul 01 17:07:04 2021] [error] [client 127.0.0.1] client denied by server configuration: C:/MAMP/htdocs/wp-content/uploads/woocommerce_uploads/, referer: http://localhost/wp-content/uploads/woocommerce_uploads/
+[Thu Jul 01 17:28:59 2021] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Jul 01 17:29:00 2021] [warn] pid file C:/MAMP/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jul 01 17:29:00 2021] [notice] Digest: generating secret for digest authentication ...
+[Thu Jul 01 17:29:00 2021] [notice] Digest: done
+[Thu Jul 01 17:29:01 2021] [notice] Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3 configured -- resuming normal operations
+[Thu Jul 01 17:29:01 2021] [notice] Server built: May  6 2016 10:19:53
+[Thu Jul 01 17:29:01 2021] [notice] Parent: Created child process 7816
+[Thu Jul 01 17:29:01 2021] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Jul 01 17:29:02 2021] [notice] Digest: generating secret for digest authentication ...
+[Thu Jul 01 17:29:02 2021] [notice] Digest: done
+[Thu Jul 01 17:29:03 2021] [notice] Child 7816: Child process is running
+[Thu Jul 01 17:29:03 2021] [notice] Child 7816: Acquired the start mutex.
+[Thu Jul 01 17:29:03 2021] [notice] Child 7816: Starting 64 worker threads.
+[Thu Jul 01 17:29:03 2021] [notice] Child 7816: Starting thread to listen on port 80.
+[Thu Jul 01 17:29:22 2021] [error] [client 127.0.0.1] File does not exist: C:/MAMP/htdocs/favicon.ico
+[Thu Jul 01 17:34:58 2021] [error] [client 127.0.0.1] client denied by server configuration: C:/MAMP/htdocs/wp-content/uploads/woocommerce_uploads/, referer: http://localhost/wp-content/uploads/woocommerce_uploads/
