@@ -1,0 +1,171 @@
+
+.kis-status-container .postbox:last-child {
+    margin-bottom: 0;
+}
+
+.kis-status-container #post-body-content {max-width: 500px; text-align: center;}
+.kis-status-container #post-body-content h2 {text-align: left;}
+
+.kis-oauth {
+    /*width: 400px;*/
+    max-width: 100%;
+}
+
+.kis-oauth__section {
+    padding: 0 0 .25rem;
+}
+
+.kis-oauth__section p {
+    margin: 0 0 .5rem;
+}
+
+.kis-oauth__section p:last-child {
+    margin-bottom: 0;
+}
+
+.kis-oauth__label {
+    /* Use the WP core line height for buttons. */
+    line-height: 26px;
+    position: relative;
+    margin-right: 2rem;
+}
+
+.kis-oauth__label--checkmarked:after {
+    content: "\f147";
+    color: #46B450;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'dashicons';
+    font-size: 1.6rem;
+    position: absolute;
+}
+
+.kis-oauth__label--crossed:before {
+    content: "\f14c";
+    color: #f44336;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'dashicons';
+    font-size: 1rem;
+}
+
+.kis-oauth__action {
+    flex: 1;
+}
+#kis-oauth__action__connect-link {width: 150px;}
+ #mainform h2 {font-weight: 300; font-size: 22px;}
+
+
+.kis-merchant__details__row__cell--label {
+    font-weight: bold;
+    padding-right: 2rem;
+}
+.kis-audit-status-container .postbox, .setting-warning {
+    max-width: 480px;
+    padding: 10px;
+}
+
+.kis-audit-status-container .postbox h2 {
+    font-size: 14px; 
+    padding: 8px 12px; 
+    margin: 0;
+    line-height: 1.4;
+}
+
+.system-audit-notices {
+    margin: 5px 10px;
+}
+
+.system-audit-notice {
+    box-shadow: 0 0 6px -2px rgba(0,0,0,.3);
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.system-audit-notice:hover {
+    box-shadow: unset;
+}
+
+.system-audit-notice.fail {
+    border-left: 4px solid #dc3232;
+}
+
+.system-audit-notice.warning {
+    border-left: 4px solid #ffb900;
+}
+
+.system-audit-notice.success {
+    border-left: 4px solid #46b450;
+}
+
+/* Temporarily disable Stock sync direction selection */
+#kis_stock_sync_direction {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.kis-oauth.disabled {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.kis-environment {
+    margin-bottom: 10px;
+}
+
+.kis-environment-title {
+    font-weight: bold;
+}
+
+.setting-warning {
+    background-color: #ffffff;
+    border: 1px solid #ccd0d4;
+    color: #dc3232;
+    font-weight: bold;
+    padding: 10px;
+}
+.setting-warning div {
+    margin-top: 8px;
+    color: #000000;
+    font-weight: normal;
+}
+.setting-warning p {
+    display: none;
+}
+
+.form-table th {
+    width: 220px;
+}
+
+.env-warning {
+    color: #dc3232;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#kis_environment_settings-description .setting-warning,
+#kis_auth_settings-description .setting-warning {
+    display: none;
+    color: #dc3232;
+    font-weight: bold;
+}
+
+#kis_environment_settings-description .setting-warning.show,
+#kis_auth_settings-description .setting-warning.show {
+    display: block;
+}
+.kis_test_environment_enabled_area, .system-test-checkbox {padding: 8px 12px; }
+#kis_tax_settings-description {max-width: 500px;}
+.options-container {margin-bottom: 10px;}
+.options-container label {font-weight: 500; font-size: 16px; display: inline-block; min-width: 150px;}
+.options-container select {min-width: 250px;}
+h4 {display: inline-block; max-width: 430px}
+.tax-notice {margin-left: 0px;}
+.kis_system_test_inside p {display: inline-block;}
+.kis_system_test_inside label{display: inline-block; width: 180px;  font-weight: 500; font-size: 16px; margin-right: 5px;}
+.kis_test_environment_enabled_area label {display: inline-block; width: 180px; font-weight: 500; font-size: 16px;}
+#mainform .system-test-checkbox h2 {padding: 0px;}
+.system-test-checkbox .auth-url-class {margin-left: 25px;}
+.system-test-checkbox strong {margin-bottom: 8px; display: inline-block; max-width: 430px;}
+.system-test-checkbox div {margin-left: 25px;}
+#mainform .system-test-checkbox  .auth-settings-title {margin-bottom: 20px;}

@@ -1,0 +1,417 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Kassa Intergration\n"
+"POT-Creation-Date: 2019-10-18 16:38+0300\n"
+"PO-Revision-Date: 2019-10-18 16:39+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: src/Admin/Notice.php:64
+#, php-format
+msgid ""
+"WooCommerce Checkout POS: The %1$sWordPress REST API – OAuth 1.0a Server%2$s plugin "
+"must be installed and activated!"
+msgstr ""
+"WooCommerce Checkout POS: %1$sWordPress REST API – OAuth 1.0a Server%2$s -lisäosan "
+"tulee olla asennettu ja aktivoitu!"
+
+#: src/Admin/Notice.php:92
+msgid ""
+"WooCommerce Checkout POS: An error occurred while authenticating the integration to "
+"WooCommerce. Please try again later!"
+msgstr ""
+"WooCommerce Checkout POS: WooCommercen integraation autentikaatiossa tapahtui virhe. "
+"Yritä myöhemmin uudelleen!"
+
+#: src/Admin/Notice.php:98
+msgid ""
+"WooCommerce Checkout POS: An error occurred while authenticating the integration to "
+"Checkout POS:. Please try again later!"
+msgstr ""
+"WooCommerce Checkout POS: Checkout POS: -integraation autentikaatiossa tapahtui virhe. "
+"Yritä myöhemmin uudelleen!"
+
+#: src/Admin/Notice.php:124
+msgid "WooCommerce Checkout POS: You are not authorized to disconnect the integration!"
+msgstr "WooCommerce Checkout POS: sinulla ei ole oikeutta katkaista integraatiota!"
+
+#: src/Admin/SettingsPage.php:36
+msgid "Checkout POS:"
+msgstr "Checkout POS:"
+
+#: src/Admin/SettingsPage.php:87
+msgid "Integration options"
+msgstr "Integraatio-asetukset"
+
+#: src/Admin/SettingsPage.php:101
+#, php-format
+msgid ""
+"On this page you can manage Kassa integration settings. Plugin version: (%s)"
+msgstr ""
+"Tällä sivulla voit hallita Kassa-integraation asetuksia. Lisäosan versio: "
+"(%s)"
+
+#: src/Admin/SettingsPage.php:109
+msgid "Checkout POS: Integration"
+msgstr "Checkout POS: Integraatio"
+
+#: src/Admin/SettingsPage.php:128
+msgid "Sync settings"
+msgstr "Synkronointiasetukset"
+
+#: src/Admin/SettingsPage.php:135
+msgid "Product export"
+msgstr "Tuotteiden vienti"
+
+#: src/Admin/SettingsPage.php:139 src/Admin/SettingsPage.php:151
+#: src/Admin/SettingsPage.php:164
+msgid "Woo to Kassa"
+msgstr "WooCommercesta Kassaan"
+
+#: src/Admin/SettingsPage.php:140 src/Admin/SettingsPage.php:152
+#: src/Admin/SettingsPage.php:165
+msgid "Kassa to Woo"
+msgstr "Kassasta WooCommerceen"
+
+#: src/Admin/SettingsPage.php:141 src/Admin/SettingsPage.php:154
+#: src/Admin/SettingsPage.php:166
+msgid "Off"
+msgstr "Pois päältä"
+
+#: src/Admin/SettingsPage.php:147
+msgid "Order export"
+msgstr "Tilausten vienti"
+
+#: src/Admin/SettingsPage.php:153
+msgid "Both"
+msgstr "Vie molempiin suuntiin"
+
+#: src/Admin/SettingsPage.php:160
+msgid "Stock export"
+msgstr "Varaston vienti"
+
+#: src/Admin/SettingsPage.php:203
+msgid "Integration status"
+msgstr "Integraation tila"
+
+#: src/Admin/SettingsPage.php:210
+msgid "Connected"
+msgstr "Yhdistetty"
+
+#: src/Admin/SettingsPage.php:218
+msgid "Disconnect"
+msgstr "Katkaise yhteys"
+
+#: src/Admin/SettingsPage.php:224
+msgid "Not connected"
+msgstr "Ei yhteyttä"
+
+#: src/Admin/SettingsPage.php:232
+msgid "Connect"
+msgstr "Yhdistä"
+
+#: src/Admin/SettingsPage.php:260
+msgid "Merchant details"
+msgstr "Kauppiaan tiedot"
+
+#: src/Admin/SettingsPage.php:265
+msgid "Checkout POS: account"
+msgstr "Checkout POS: -tili"
+
+#: src/Admin/SettingsPage.php:273
+msgid "Checkout POS: mode"
+msgstr "Checkout POS:n tila"
+
+#: src/Admin/SettingsPage.php:281
+msgid "Phone number"
+msgstr "Puhelinnumero"
+
+#: src/Admin/SettingsPage.php:289
+msgid "Company name"
+msgstr "Yrityksen nimi"
+
+#: src/Admin/SettingsPage.php:298
+msgid "Company address"
+msgstr "Yrityksen osoite"
+
+#: src/OAuth.php:252
+msgid "The KIS connection was successfully cancelled!"
+msgstr "KIS-yhteys katkaistu onnistuneesti!"
+
+#: src/OAuth.php:285
+msgid "Connected successfully!"
+msgstr "Yhteys muodostettu onnistuneesti!"
+
+#: src/OAuth.php:298
+msgid "You are not allowed to create the connection!"
+msgstr "Sinulla ei ole oikeutta muodostaa yhteyttä!"
+
+#: src/OAuth.php:307
+msgid "Connecting to Kassa failed!"
+msgstr "Yhdistäminen Kassaan epäonnistui!"
+
+#: src/OAuth.php:344
+#, php-format
+msgctxt "\"%s\" is a placeholder for the error message."
+msgid "Connecting to WooCommerce failed! Error: %s"
+msgstr "Yhdistäminen WooCommerceen epäonnistui! Virhe: %s"
+
+#: src/OAuth.php:360
+msgid ""
+"Connecting to WooCommerce failed! An error occurred when creating the "
+"WordPress OAuth application."
+msgstr ""
+"Yhdistäminen WooCommerceen epäonnistui! WordPress OAuth -sovelluksen "
+"luomisessa tapahtui virhe."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Checkout POS: Integration"
+msgstr "WooCommerce Checkout POS: -integraatio"
+
+#. Plugin URI of the plugin/theme
+msgid "https://git.vuola.net/pivo-kassa/wp-woocommerce-kis-plugin"
+msgstr "https://git.vuola.net/pivo-kassa/wp-woocommerce-kis-plugin"
+
+#. Description of the plugin/theme
+msgid "This plugin integrates WooCommerce with Checkout POS:."
+msgstr "Tämä lisäosa integroi WooCommercen Checkout POS:iin."
+
+#. Author of the plugin/theme
+msgid "Geniem Oy"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://geniem.fi"
+msgstr ""
+
+######
+# System Audit Translations
+######
+#. System audit runner title
+msgid "Plugin system audit"
+msgstr "Kassa-integraatio-lisäosan eheys"
+
+#. System audit test button
+msgid "Run system audit"
+msgstr "Aja järjestelmätesti"
+
+#. System audit report
+msgid "System audit report:"
+msgstr "Järjestelmätestiraportti:"
+
+#. System audit configuration file not found - error message
+msgid "System audit configuration file not found!"
+msgstr "Järjestelmätestin asetukset-tiedostoa ei löydy. Järjestelmätestiä ei voida suorittaa!"
+
+#. System audit passed
+msgid "System audit passed!"
+msgstr "Järjestelmätesti suoritettu onnistuneesti!"
+
+#. Ini variable missing - error
+msgid "System variable not set:"
+msgstr "Järjestelmämuuttujaa ei ole asetettu:"
+
+#. memory_limit - ini variable error
+msgid "System memory limit insufficient"
+msgstr "Järjestelmämuuttujan memory_limit arvo ei vastaa minimivaatimuksia"
+
+#. max_execution_time - ini variable error
+msgid "Max execution time limit insufficient"
+msgstr "Järjestelmämuuttujan max_execution_time arvo ei vastaa minimivaatimuksia"
+
+#. Incompatible plugins message
+msgid "The following active plugin may be incompatible:"
+msgstr "Mahdollisesti yhteensopimaton lisäosa löydetty:"
+
+#. Mandatory plugins message
+msgid "The following plugin needs to be installed and activated:"
+msgstr "Pakollinen lisäosa puuttuu:"
+
+#. Connectivity check message
+msgid "The target system URL did respond with an error code:"
+msgstr "Integraation kohdejärjestelmä vastasi virhekoodilla:"
+
+#. Wordpress option check message 1
+msgid "The Wordpress setting"
+msgstr "Wordpress asetus"
+
+#. Wordpress option check message 2
+msgid "needs to be set to:"
+msgstr "pitää olla asetettu seuraavasti:"
+
+#. Wordpress option checkmessage 3
+msgid "Permalink Settings -> Common Settings = Post name"
+msgstr "Osoiterakenteen asetukset -> Yleiset asetukset = Artikkelin nimi"
+
+#. Audit Warning - error message
+msgid "Audit Warning:"
+msgstr "Järjestelmätestissä löytyi mahdollisia ongelmia:"
+
+#. Audit failed - error message
+msgid "Audit Failed:"
+msgstr "Järjestelmätestissä löytyi virheitä:"
+
+#. Audit success - message
+msgid "Audit Success!"
+msgstr "Järjestelmätestissä ei löytynyt virheitä!"
+
+#. Kassa Environment - Title
+msgid "Checkout POS: Environment"
+msgstr "Checkout POS:n toimintaympäristö"
+
+#. Kassa Environment - Title
+msgid "Connect to Checkout POS: Test Environment"
+msgstr "Yhdistä Checkout POS:n testiympäristöön"
+
+#. Kassa Environment - Desc
+msgid "Check the \"Connect to Checkout POS: Test Environment\"-option below to use Kassa Test Environment and save the settings. <div class=\"setting-warning\">WARNING: Changing the environment disconnects Your WooCommerce instance from Kassa, if connected.</div>"
+msgstr "Valitse \"Yhdistä Checkout POS:n testiympäristöön\" halutessasi yhdistää Checkout POS:n testiympäristöön ja tallenna asetukset. <div class=\"setting-warning\">VAROITUS: Toimintaympäristön vaihtaminen aiheuttaa mahdollisen nykyisen Kassa-yhteyden katkaisemisen.</div>"
+
+msgid "Authentication settings"
+msgstr "Autentikointiasetukset"
+
+msgid "Receive Checkout POS: integration authentication data in URL params instead of request header. Save the new settings before connecting to Checkout POS:.<div class=\"setting-warning\">NOTE: Enabling this authentication method potentially weakens the security of the site. Enable this setting only if You know what You are doing!<div>Changing the auth method disconnects Your WooCommerce instance from Kassa, if connected.</div></div>"
+msgstr "Checkout POS:-integraation autentikointitiedot vastaanotetaan URL-parametreinä HTTP-pyynnön header-tietojen sijaan. Tehtyäsi tämän muutoksen, tallenna tämä sivu ennen kuin yhdistät Checkout POS:iin.<div class=\"setting-warning\">VAROITUS: Tämän asetuksen muuttaminen saattaa heikentää tietoturvaa, joten älä muuta sitä ellet tiedä mitä olet tekemässä!<div>Autentikaatiotietojen vastaanottometodin vaihtaminen aiheuttaa mahdollisen nykyisen Kassa-yhteyden katkaisemisen!</div></div>"
+
+msgid "Checkout POS: Auth data in URL params"
+msgstr "Checkout POS: autentikaatiotiedot URL-parametreinä"
+
+#. Kassa Environment - Selection option
+msgid "Test Environment"
+msgstr "Testiympäristö"
+
+#. Kassa Environment - Selection option
+msgid "Production Environment"
+msgstr "Tuotantoympäristö"
+
+#. Kassa Environment - Selection option value
+msgid "test"
+msgstr "Testiympäristö"
+
+#. Kassa Environment - Selection option value
+msgid "production"
+msgstr "Tuotantoympäristö"
+
+#. Kassa Environment - Custom
+msgid "CUSTOM (environmental urls probably set up in wp-config.php. These settings override the environment selection.)"
+msgstr "RÄÄTÄLÖITY (Toimintaympäristön osoitteet ovat todennäköisesti määritelty wp-config.php-tiedostossa. Nämä määrittelyt ajavat tämän sivun toimintaympäristövalinnan yli.)"
+
+#. Kassa Environment - Instructions
+msgid "Before You can connect to Kassa, please select the target environment above and save the settings page."
+msgstr "Ennen kuin voit yhdistää Checkout POS:iin, sinun tulee valita yllä Checkout POS:n toimintaympäristö ja tallentaa sivu."
+
+#. Kassa Environment - No selection value
+msgid "Not selected"
+msgstr "Ei valittu"
+
+#. Audit - Environment not selected - message
+msgid "The Checkout POS: environment (test/production) has not been selected. Select the environment in the plugin <a href=\"/wp-admin/admin.php?page=wc-settings&tab=kis\"><b>settings</b></a>."
+msgstr "Checkout POS:n toimintaympäristöä ( testi / tuotanto ) ei ole vielä valittu. Valitse toimintaympäristö lisäosan <a href=\"/wp-admin/admin.php?page=wc-settings&tab=kis\"><b>Asetukset-sivulta</b></a>."
+
+#. Audit - Plugin not connected - message
+msgid "The Checkout POS:-plugin has not yet been connected to Kassa. Connect to Kassa in the plugin <a href=\"/wp-admin/admin.php?page=wc-settings&tab=kis\"><b>settings</b></a>."
+msgstr "Checkout POS: fo WooCommerce-lisäosaa ei ole vielä yhdistetty Checkout POS:iin. Yhdistä Checkout POS:iin lisäosan <a href=\"/wp-admin/admin.php?page=wc-settings&tab=kis\"><b>Asetukset-sivulta</b></a>."
+
+#. Custom qTranslate-plugin system audit warning
+msgid "qTranslate-plugin seems to be activated! To prevent issues with the Checkout POS:-plugin, please select the <i>\"Hide URL language information for default language.\"</i>-setting (if it is available) in the <i>\"Settings\"</i> -> <i>\"Languages\"</i> -> <i>\"General\"</i>."
+msgstr "qTranslate-lisäosa näyttää olevan aktivoituna. Jotta kyseinen lisäosa toimisi oikein Checkout POS:-lisäosan kanssa, tulee <i>\"Hide URL language information for default language.\"</i>-asetuksen olla valittuna yleisasetuksissa: <i>\"Asetukset\"</i> -> <i>\"Languages\"</i> -> <i>\"General\"</i>."
+
+#. System audit instructions for Polylang-plugin
+msgid "The free Polylang-plugin is recommended to be upgraded to <a href=\"https://polylang.pro/downloads/polylang-pro/\">'Polylang Pro'</a> and <a href=\"https://polylang.pro/downloads/polylang-for-woocommerce/\">'Polylang for Woocommerce'</a>-plugins. <a href=\"https://polylang.pro/downloads/polylang-pro-for-woocommerce/\">'Polylang Pro for Woocommerce'</a>-bundle includes both mandatory plugins."
+msgstr "Ilmainen Polylang-lisäosa on suositeltavaa päivittää <a href=\"https://polylang.pro/downloads/polylang-pro/\">'Polylang Pro'</a> sekä <a href=\"https://polylang.pro/downloads/polylang-for-woocommerce/\">'Polylang for Woocommerce'</a>-lisäosiin.  <a href=\"https://polylang.pro/downloads/polylang-pro-for-woocommerce/\">'Polylang Pro for Woocommerce'</a>-paketti sisältää molemmat lisäosat."
+
+#. Checkout POS: connection failed due to 'addon not subscribed'-error
+msgid "WooCommerce Checkout POS: An error occurred while authenticating the integration to Checkout POS: Woocommerce addon has not been activated. Activate the addon in the Checkout POS: management panel and try again."
+msgstr "WooCommerce Checkout POS: WooCommercen integraation autentikaatiossa tapahtui virhe: Checkout POS:n WooCommerce-laajennosta ei ole aktivoitu. Tilaa laajennos Checkout POS:n hallintapaneelista ja yritä uudelleen."
+
+#. Checkout POS: connection failed due to unknown error code
+msgid "WooCommerce Checkout POS: An error occurred while authenticating the integration to Checkout POS: (error code: "
+msgstr "WooCommerce Checkout POS: WooCommercen integraation autentikaatiossa tapahtui virhe (virhekoodi: "
+
+msgid "The site domain has changed: Checkout POS: has been disconnected."
+msgstr "WooCommercen verkkotunnus on vaihtunut: Checkout POS: yhteys on katkaistu."
+
+msgid "Old domain: "
+msgstr "Vanha verkkotunnus: "
+
+msgid "New domain: "
+msgstr "Uusi verkkotunnus: "
+
+msgid "Please make sure the new domain is correct before re-connecting to Checkout POS:."
+msgstr "Varmista, että uusi verkkotunnus on oikein ennen kuin yhdistät WooCommercen uudelleen Checkout POS:iin."
+
+msgid "NOTE! If You connect to Checkout POS: with same credentials than earlier, the products may be duplicated during the product synchronization. You may want to delete the products from Checkout POS: prior new connection."
+msgstr "HUOMAA! Mikäli Checkout POS:iin yhdistetään samoilla tunnuksilla kuin ennen verkkotunnuksen muuttamista, aiemmalla verkkotunnuksella synkronoidut tuotteet saattavat monistua. Synkronoidut tuotteet kannattaa poistaa ennen yhteyden uudelleen muodostamista, jolloin ne synkroinoidaan uudelleen."
+
+msgid "Tax settings"
+msgstr "Veroasetukset"
+
+msgid "Enable WooCommerce tax calculation"
+msgstr "Laske verot WooCommercessa"
+
+msgid "Use WooCommerce tax calculation on synchronized order prices.<div class=\"setting-warning\">NOTE:<div>There may be rounding differences between Checkout POS: and WooCommerce orders if this option is enabled.</div><div>Products and Fees on Checkout POS: purchases which are not found in WooCommerce, use the default tax class VAT percentage. This may differ from Checkout POS:.</div></div>"
+msgstr "Ota käyttöön WooCommercen verolaskenta siirretyistä Checkout POS:n myynneissä.<div class=\"setting-warning\">HUOMAA!<div>Verolaskenta WooCommercessa saattaa aiheuttaa pyöristyseroja Checkout POS:n tilauksiin nähden.</div><div>Checkout POS:n myynneissä olevien tuotteiden ja lisämaksujen osalta verolaskennassa käytetään perusveroprosenttia, mikäli ko. tuotteita ei ole määritelty WooCommercessa. Tämä saattaa erota Checkout POS:ssa määritellystä veroprosentista.</div></div>"
+
+msgid "Operational environment"
+msgstr "Toimintaympäristö"
+
+msgid "Checkout POS production environment"
+msgstr "Checkout POS tuotantoympäristö"
+
+msgid "Checkout POS test environment"
+msgstr "Checkout POS testiympäristö"
+
+msgid "<strong>Receive Checkout POS integration authentication data in URL params instead of request header.</strong> <div class="auth-url-class">Receive Checkout POS integration authentication data in URL params instead of request header. After changing the setting save the changes before you connect to Checkout POS.</div>"
+msgstr "<strong>Checkout POS:-integraation autentikointitiedot vastaanotetaan URL-parametreinä HTTP-pyynnön header-tietojen sijaan.</strong> <div class="auth-url-class">Checkout POS:-integraation autentikointitiedot vastaanotetaan URL-parametreinä HTTP-pyynnön header-tietojen sijaan. Tehtyäsi tämän muutoksen, tallenna tämä sivu ennen kuin yhdistät Checkout POS:iin."
+
+msgid "Developer settings"
+msgstr "Kehittäjä asetukset"
+
+msgid "Connection"
+msgstr "Yhteys"
+
+msgid "Woocommerce is not connected to Checkout POS"
+msgstr "Woocommerce ei ole yhteydessä Checkout POSään"
+
+msgid "<h4>Calculate the taxes in woocommerce</h4><div class="tax-notice">There may be rounding differences between Checkout POS and WooCommerce orders if this option is enabled. Products and Fees on Checkout POS purchases which are not found in WooCommerce, use the default tax class VAT percentage. This may differ from Checkout POS.</div>"
+msgstr "<h4>Ota käyttöön WooCommercen verolaskenta siirretyistä Checkout POS:n myynneissä.</h4><div class="tax-notice">Verolaskenta WooCommercessa saattaa aiheuttaa pyöristyseroja Checkout POS:n tilauksiin nähden.</div><div>Checkout POS:n myynneissä olevien tuotteiden ja lisämaksujen osalta verolaskennassa käytetään perusveroprosenttia, mikäli ko. tuotteita ei ole määritelty WooCommercessa. Tämä saattaa erota Checkout POS:ssa määritellystä veroprosentista.</div>"
+
+#~ msgid "Ville Siltala / Geniem Oy"
+#~ msgstr "Ville Siltala / Geniem Oy"
+
+#~ msgid "https://github.com/villesiltala"
+#~ msgstr "https://github.com/villesiltala"
+
+#~ msgid "Sync options"
+#~ msgstr "Viennin asetukset"
+
+#~ msgid "OAUTH autentication"
+#~ msgstr "OAUTH-autentikaatio"
+
+#~ msgid "WooCommerce connection"
+#~ msgstr "WooCommerce-yhteys"
+
+#~ msgid ""
+#~ "The %1$sWordPress REST API – OAuth 1.0a Server%2$s plugin must be "
+#~ "installed and activated!"
+#~ msgstr ""
+#~ "%1$sWordPress REST API – OAuth 1.0a Server%2$s -lisäosan tulee olla "
+#~ "asennettu ja aktivoitu!"
+
+#~ msgid "Plugin version"
+#~ msgstr "Lisäosan versio"

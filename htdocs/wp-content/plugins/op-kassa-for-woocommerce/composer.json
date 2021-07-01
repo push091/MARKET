@@ -1,0 +1,54 @@
+{
+    "name": "checkout-finland/checkout-pos-for-woocommerce",
+    "type": "wordpress-plugin",
+    "description": "Connect your Checkout POS and WooCommerce to synchronize products, orders and stock levels between the systems.",
+    "authors": [
+        {
+            "name": "Miika Arponen",
+            "homepage": "http://github.com/nomafin",
+            "role": "Developer"
+        },
+        {
+            "name": "Ville Siltala",
+            "homepage": "http://github.com/villesiltala",
+            "role": "Developer"
+        },
+        {
+            "name": "Tomi Henttinen",
+            "homepage": "https://github.com/tomihenttinen",
+            "role": "Developer"
+        },
+        {
+            "name": "Indre Solodov",
+            "homepage": "https://github.com/Indre87",
+            "role": "Developer"
+        },
+        {
+            "name": "Joonas Loueranta",
+            "homepage": "https://github.com/loueranta",
+            "role": "Manager"
+        }
+    ],
+    "support": {
+        "email": "kassatuki@checkout.fi",
+        "issues": "https://github.com/CheckoutFinland/checkout-pos-for-woocommerce/issues",
+        "source": "https://github.com/CheckoutFinland/checkout-pos-for-woocommerce"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:CheckoutFinland/checkout-pos-for-woocommerce.git"
+          }
+    ],
+    "keywords": [
+        "wordpress", "woocommerce", "op kassa", "checkout finland", "checkout pos"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"CheckoutFinland\\WooCommerceKIS\\": "src/"}
+    },
+    "require": {
+        "php": "^7.0",
+        "composer/installers": "^1.0.12"
+    }
+}
