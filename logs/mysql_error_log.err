@@ -10,3 +10,15 @@
 2021-07-01T14:29:02.577760Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
 2021-07-01T14:29:02.578288Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
 2021-07-01T14:29:02.578312Z 0 [Note] C:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 4896 ...
+2021-07-03T16:50:47.630701Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-07-03T16:50:47.630779Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-07-03T16:50:47.631169Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2021-07-03T16:50:47.631193Z 0 [Note] C:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 2000 ...
+2021-07-03T19:07:41.065141Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-07-03T19:07:41.065223Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-07-03T19:07:41.065641Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2021-07-03T19:07:41.065665Z 0 [Note] C:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 6000 ...
+2021-07-04T11:57:06.609610Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-07-04T11:57:06.610677Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-07-04T11:57:06.612489Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2021-07-04T11:57:06.612515Z 0 [Note] C:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 7244 ...
